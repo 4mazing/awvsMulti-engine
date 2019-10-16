@@ -1,0 +1,61 @@
+version: '2'
+services:
+  awvs_management:
+    ports: 
+      - "63443:3443"
+    restart: always
+    privileged: true
+    build:
+      context: .
+      dockerfile: awvs_manage/Dockerfile
+    # images: awvs_manage
+
+  awvs_engine1:
+    ports:
+      - "63001:3443"
+    restart: always
+    privileged: true
+    build:
+      context: .
+      dockerfile: awvs_engine/Dockerfile
+    # images: awvs_engine
+
+  awvs_engine2:
+    ports:
+      - "63002:3443"
+    restart: always
+    privileged: true
+    build:
+      context: .
+      dockerfile: awvs_engine/Dockerfile
+    # images: awvs_engine
+
+  awvs_engine3:
+    ports:
+      - "63303:3443"
+    restart: always
+    privileged: true
+    build:
+      context: .
+      dockerfile: awvs_engine/Dockerfile
+    # images: awvs_engine
+
+  awvs_engine4:
+    ports:
+      - "63304:3443"
+    restart: always
+    privileged: true
+    build:
+      context: .
+      dockerfile: awvs_engine/Dockerfile
+    # images: awvs_engine
+
+  awvs_engine5:
+    ports:
+      - "63305:3443"
+    restart: always
+    privileged: true
+    build:
+      context: .
+      dockerfile: awvs_engine/Dockerfile
+    # images: awvs_engine
