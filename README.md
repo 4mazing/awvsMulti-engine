@@ -8,6 +8,10 @@
 
 
 
+ 猪猪侠的链接[http://t.cn/AimEyPIE](http://t.cn/AimEyPIE)，版本号AWVS 12.0.190902105_x64（2019年9月2日最新版本） 
+
+
+
 # 0x01 awvs12 Multi-engine Docker
 
 awvs12统一面板管理多引擎Multi-engine，一键docker部署，自动化扫描采用的方式为最新版"acunetix_12.0.190902105_x64"进行安全部署.
