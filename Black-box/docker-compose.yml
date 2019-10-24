@@ -32,7 +32,7 @@ services:
 
   awvs_engine3:
     ports:
-      - "63303:3443"
+      - "63003:3443"
     restart: always
     privileged: true
     build:
@@ -42,7 +42,7 @@ services:
 
   awvs_engine4:
     ports:
-      - "63304:3443"
+      - "63004:3443"
     restart: always
     privileged: true
     build:
@@ -52,7 +52,7 @@ services:
 
   awvs_engine5:
     ports:
-      - "63305:3443"
+      - "63005:3443"
     restart: always
     privileged: true
     build:
